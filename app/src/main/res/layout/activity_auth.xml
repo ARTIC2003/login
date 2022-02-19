@@ -4,10 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:background="#FFCA28">
+    tools:context=".AuthActivity"
+    android:background="#ECEFF1">
 
     <LinearLayout
+        android:id="@+id/authLayout"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -25,13 +26,13 @@
             android:layout_marginBottom="5dp"
             android:layout_weight="1"
             android:background="@drawable/shape_editext"
-            android:ems="10"
-            android:hint="Email"
             android:drawableStart="@drawable/ic_baseline_email_24"
             android:drawablePadding="5dp"
-            android:paddingLeft="10dp"
+            android:ems="10"
+            android:hint="Email"
             android:inputType="textEmailAddress"
             android:minHeight="48dp"
+            android:paddingLeft="10dp"
             tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
 
         <EditText
@@ -42,11 +43,11 @@
             android:background="@drawable/shape_editext"
             android:drawableStart="@drawable/ic_baseline_https_24"
             android:drawablePadding="5dp"
-            android:paddingLeft="10dp"
             android:ems="10"
             android:hint="Password"
             android:inputType="textPassword"
             android:minHeight="48dp"
+            android:paddingLeft="10dp"
             tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
 
         <Space
@@ -83,6 +84,35 @@
                 android:background="@drawable/shape_button"
                 android:text="Acceder"
                 android:textColor="@color/white" />
+
         </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:layout_weight="0" />
+
+        <Button
+            android:id="@+id/googleButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_button"
+            android:text="Google" />
+
     </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginBottom="1dp"
+        android:background="#039BE5"
+        android:src="@drawable/loofb"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/authLayout"
+        tools:srcCompat="@drawable/loofb" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

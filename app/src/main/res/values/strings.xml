@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">LoginFirebas</string>
+    <string name="prefs_file">Firebase_google.PREFERENCE_FILE_KEY</string>
 </resources>

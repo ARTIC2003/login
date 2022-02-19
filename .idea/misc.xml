@@ -7,7 +7,9 @@
         <entry key="..\:/Users/pc/LoginFirebas/app/src/main/res/drawable/ic_baseline_https_24.xml" value="0.2935" />
         <entry key="..\:/Users/pc/LoginFirebas/app/src/main/res/drawable/shape_button.xml" value="0.322" />
         <entry key="..\:/Users/pc/LoginFirebas/app/src/main/res/drawable/shape_editext.xml" value="0.2935" />
-        <entry key="..\:/Users/pc/LoginFirebas/app/src/main/res/layout/activity_main.xml" value="0.536" />
+        <entry key="..\:/Users/pc/LoginFirebas/app/src/main/res/layout/activity_auth.xml" value="0.3229166666666667" />
+        <entry key="..\:/Users/pc/LoginFirebas/app/src/main/res/layout/activity_home.xml" value="0.3229166666666667" />
+        <entry key="..\:/Users/pc/LoginFirebas/app/src/main/res/layout/activity_main.xml" value="0.3229166666666667" />
       </map>
     </option>
   </component>
